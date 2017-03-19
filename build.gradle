@@ -1,0 +1,31 @@
+buildscript {
+   repositories {
+       mavenLocal()
+       mavenCentral()
+   }
+   dependencies {
+        classpath 'com.betomorrow.gradle:xamarin-application-plugin:1.0-SNAPSHOT'
+        classpath 'com.betomorrow.gradle:xamarin-nunit-plugin:1.0-SNAPSHOT'
+   }
+}
+
+apply plugin: 'xamarin-application-plugin'
+apply plugin: 'xamarin-nunit-plugin'
+
+ext {
+    appVersion = "1.0.0"
+    appName = "Com.ACME.SampleApp"
+    env = "alpha"
+}
+
+application {
+    appName project.appName
+    appVersion project.appVersion
+    storeVersion "1"
+    packageName "com.acme.crossapp.${env}"
+}
+
+nunit {
+    format = "nunit2"
+}
+

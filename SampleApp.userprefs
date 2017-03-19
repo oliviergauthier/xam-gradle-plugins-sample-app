@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{D1FCCE76-DD2D-4DAF-B3BB-DFAFB2E9D7FC}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="SampleApp.Test/Test.cs" Line="14" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="SampleApp" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CA72938D-74BE-4FD2-BF8E-0806444476BF" />
+</Properties>
