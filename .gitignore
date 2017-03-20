@@ -1,3 +1,12 @@
 .gradle
 .droidres
 packages
+dist
+Droid/bin
+Droid/obj
+iOS/bin
+iOS/obj
+SampleApp.Test/bin
+SampleApp.Test/obj
+SampleApp/bin
+SampleApp/obj
